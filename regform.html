@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation Form</title>
+</head>
+<body>
+    <div id="container">
+    <h1>Student Registration Form</h1><br>
+
+    <b>First Name</b>
+
+    <input type="text" name="Firstname" size = "15" placeholder="Enter here" class="in"> <br>
+<br>
+    <label>Middlename</label>
+
+    <input type="text" name="Middlename" size = "15" placeholder="Enter here" class="in"> <br>
+<br>
+    <label>Lastname</label>
+
+    <input type="text" name="Lastname" size = "15" placeholder="Enter here" class="in"> <br>
+<br>
+    <label>Course:</label>
+<select>
+    <option value="Select">Select</option>
+    <option value="python">Python</option>
+    <option value="SQL">SQL</option>
+    <option value="C">C</option>
+    <option value="Java">Java</option>
+    <option value="cypress">Cypress</option>
+</select>
+<br>
+<br>
+<label>Gender:</label>
+
+<input type="radio" name="Male"/>Male 
+<input type="radio" name="Female"/>Female
+<input type="radio" name="other"/> Other
+
+<br>
+<br>
+<label>Mobile No.:</label>
+<input type="text" name="mobile">
+<br>
+<br>
+Address: <br>
+<textarea value="address" cols="40" rows="5"></textarea>
+<br>
+<br>
+Email:
+<input type="email" name="email" id="email">
+<br>
+<br>
+Password:
+<input type="password" name="pass" id="pass">
+<br>
+<br>
+Re-enter Password:
+<input type="password" name="repass" id="repass">
+<br><br>
+<input type="button" value="Submit" id="btn">
+</div>
+
+</body>
+<style>
+    h1{
+        color: brown;
+        background-color: rgb(111, 214, 214);
+        border-style: double; border-radius: 10px;
+        width:auto;
+        text-align: center;
+
+    }
+    .in{
+        font-size: 12;   
+        background-color: rgb(240, 232, 232);  
+    }
+    body{
+        background-color: bisque;
+        background-image: -moz-linear-gradient();
+    }
+    textarea{
+        font-size: larger;
+    }
+
+    #container{
+        width: inherit;
+        padding: 20px;
+        border: 5px solid red;
+        /* margin: 25 25 25 25; */
+        border-radius: 10px;
+    }#btn{
+        width: 200px;
+        height: 4ch;
+        background-color: rgb(66, 201, 122);
+        border-style: dashed;
+        border-radius: 10px;
+        font-weight: bolder; font-style: italic; font: size 10px;;
+    }
+
+</style>
+</html>
