@@ -1,0 +1,25 @@
+h1{
+    color:brown;
+    font-style: oblique;
+}
+.P1{
+    color:purple;
+    background-color: rgb(126, 126, 118);
+}
+.l1{
+    color:indianred;
+    background-color: gainsboro;
+    height: 50px;
+}
+.t1{
+    color: tomato;
+    background-color: darkkhaki;
+    font-size: xx-large;
+    background-size: 100px;
+}
+#l1{
+    color: darkgreen;
+    background-color: ghostwhite;
+    height: 50px;
+    font-style: oblique;
+}
