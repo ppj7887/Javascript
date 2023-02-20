@@ -76,3 +76,4 @@ function capitalWord(string){
 console.log(capitalWord(thought))
 
 
+
